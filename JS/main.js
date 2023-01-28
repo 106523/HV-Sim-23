@@ -19,7 +19,7 @@ function control() {
     StepTime = Date.now() - LastTimeStamp;
     LastTimeStamp = Date.now();
     //Input system.
-    let AcceleratorInput = document.getElementById("Accelerator");
+    const AcceleratorInput = document.getElementById("Accelerator");
     //Convert accelerator pedal input to torque.
 }
 //EV drive mode
