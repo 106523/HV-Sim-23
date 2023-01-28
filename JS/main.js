@@ -10,4 +10,7 @@ function control() {
     //Step timer.
     StepTime = Date.now() - LastTimeStamp;
     LastTimeStamp = Date.now();
+    //Input system.
+    let AcceleratorInput = document.getElementById("Accelerator");
+    //Convert accelerator pedal input to torque.
 }
