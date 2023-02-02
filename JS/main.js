@@ -1,13 +1,23 @@
+//Initialize the F_CAN bus
+var F_CAN = {
+  "Speed" : 0,
+  "MG1RPM" : 0,
+  "TorqueDemand" : 0,
+  "StepTime" : 0,
+  "MG1TorqueOutput" : 0,
+  "EngineTorqueOutput" : 0,
+  "MG1TorqueLimit" : 0,
+  "MG1Torque" : 0,
+  "RegenAvalibleTorque" : 0,
+  "HVSOC" : 0,
+  "FrictionBrakeDemand" : 0,
+  "HVMode" : 0,
+  "LockUpClutch" : 0,
+  "EngineGeneration" : 0,
+  "EngineRPM" : 0,
+  "WheelTorque" : 0,
+};
 //Powertrain variables.
-let EngineRPM = 0;
-let MG2KW = 0;
-let MG1KW = 0;
-let Speed = 0;
-let TorqueLimit = 0;
-let TorqueDemand = 0;
-let MG1TorqueOutput = 0;
-let EngineTorqueOutput = 0;
-let MG1RPM = 0;
 const BatteryMaxPowerDraw = 100000;
 //Timer init varaibles.
 let StepTime;
