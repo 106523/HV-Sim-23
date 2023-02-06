@@ -1,4 +1,4 @@
-//Initialize the F_CAN bus
+//Initialize the F_CAN bus.
 var F_CAN = {
   "Speed" : 0,
   "MG1RPM" : 0,
@@ -19,6 +19,10 @@ var F_CAN = {
 };
 //Powertrain variables.
 const BatteryMaxPowerDraw = 100000;
+//Gearing.
+const FinalDrive = 3.421;
+const MotorShaft = 2.454;
+const OverDrive = 0.806;
 //Timer init varaibles.
 let StepTime;
 let LastTimeStamp = 0; 
